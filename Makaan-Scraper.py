@@ -14,8 +14,8 @@ headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit
 
 def getRandomProxy():
     proxy = {
-    "http": f"http://scraperapi:af96f76d3d200d7b072643aef102a54a@proxy-server.scraperapi.com:8001",
-    "https": f"http://scraperapi:af96f76d3d200d7b072643aef102a54a@proxy-server.scraperapi.com:8001"}
+    "http": f"http://scraperapi:APIKey@proxy-server.scraperapi.com:8001",
+    "https": f"http://scraperapi:APIKey@proxy-server.scraperapi.com:8001"}
 
     return proxy
     
